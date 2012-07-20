@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/homeTitlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navbar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/homeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/myplace_text"
+            android:textColor="@color/darkBlue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+       
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/listAndButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/homeTitlebar"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/addPlaceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/addplacebtn"
+            android:gravity="center"
+            android:text="@string/addplace_text"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/placeList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+          >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

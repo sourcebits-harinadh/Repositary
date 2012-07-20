@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HopprActivity!</string>
+    <string name="app_name">Hoppr</string>
+    <string name="connnectwithfb_text">Connect With FaceBook</string>
+    <string name="email_text">Email Or Mobile Number</string>
+    <string name="password_text">Password</string>
+    <string name="or_text">Or</string>
+    <string name="login_text">Login</string>
+    <string name="not_a_member_text">Not a member?</string>
+    <string name="signup_title_text">Sign Up</string>
+    <string name="name_text">Name</string>
+    <string name="winpoins_text">Win 1000 Reward Points</string>
+    <string name="join_text">Join Hoppr</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="myprofile_text">My Profile</string>
+    <string name="addplace_text">Add Place</string>
+    <string name="create_new_place_text">Create a new place</string>
+    <string name="place_name_text">Place Name</string>
+    <string name="add_address_text">Add Address</string>
+    <string name="add_desc_text">Add Description</string>
+    <string name="category_text">Category</string>
+    <string name="done_text">Done</string>
+    <string name="home_text">Home</string>
+    <string name="logout_text">Logout</string>
+    <string name="myplace_text">My Places</string>
+    <string name="prifile_places_text">Profile and Places</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="location">Location</string>
+    <string name="gender">Gender</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="male_text">Male</string>
+    <string name="female_text">FeMale</string>
+    <string name="designation_text">Designation</string>
+
+</resources>
